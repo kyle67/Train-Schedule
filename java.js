@@ -1,24 +1,24 @@
-function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.getElementsByClassName('needs-validation');
-      // Loop over them and prevent submission
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
+// function() {
+//     'use strict';
+//     window.addEventListener('load', function() {
+//       // Fetch all the forms we want to apply custom Bootstrap validation styles to
+//       var forms = document.getElementsByClassName('needs-validation');
+//       // Loop over them and prevent submission
+//       var validation = Array.prototype.filter.call(forms, function(form) {
+//         form.addEventListener('submit', function(event) {
             
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-           }
-           form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
+//           if (form.checkValidity() === false) {
+//             event.preventDefault();
+//             event.stopPropagation();
+//            }
+//            form.classList.add('was-validated');
+//         }, false);
+//       });
+//     }, false);
+//   })();
           //Initialize Firebase
          // Your web app's Firebase configuration
-          <script>
+          
    var firebaseConfig = {
     apiKey: "AIzaSyCI4_9J3JkgXCnGoqjrvFSXPUQa-wb35eU",
     authDomain: "train-schedule-d3e1f.firebaseapp.com",
@@ -30,16 +30,15 @@ function() {
     measurementId: "G-1T2C1ME831"
   };
    firebase.initializeApp(firebaseConfig);
-   firebase.analytics();
-
-</script>
+   
+   var traindata = firebase.database();
   
           $("#submit-button").on("click", function(event) {
               event.preventDefault();
   
               //Grabs user Input
               var input = $("input");
-              var tLine= $("#train-name").val().trim();
+              var tName= $("#train-name").val().trim();
               var tDestination = $("#train-destination").val().trim();
               var tFirstTime = moment($("#train-first-time").val().trim(), "HH:mm");
               var tFrequency = parseInt($("#train-frequency").val().trim());
@@ -83,7 +82,12 @@ function() {
                 $("#train-first-time").attr("class", "form-control is-invalid");
                 $("#invalid-time").text("Please enter a valid time");
 
-                return    
+              // traindata.ref().push({
+              //   name:tName,
+              //   destination:tDestination,
+              //   firstTrain:tFirstTime,
+              //   frequency:tFrequency
+              // });  
             }
             
             $("#train-first-time").attr("class", "form-control");
@@ -96,13 +100,14 @@ function() {
                   firstTime: tFirstTime.format("HH:mm"),
                   frequency: tFrequency
               };
+              traindata.ref().push(newTrain);
               $("#train-first-Time").attr("class", "form-group");
               
               $("#helpBlock").text("");
   
   
               //Code for pushing train data to Firebase
-              database.ref().push(newTrain);
+              
   
               console.log(newTrain.name);
               console.log(newTrain.destination);
@@ -118,7 +123,7 @@ function() {
           });
   
           //Firebase watcher + initial loader
-          database.ref().on("child_added", function(childSnapshot) {
+          traindata.ref().on("child_added", function(childSnapshot) {
   
               var tName = (childSnapshot.val().name);
               var tDestination = (childSnapshot.val().destination);

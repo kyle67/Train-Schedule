@@ -19,6 +19,8 @@
     <!--Firebase Link-->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-database.js"></script>
+
 </head>
 
 <body>
@@ -62,7 +64,7 @@
         <div class="card border-primary mb-3">
             <div class="card-header text-white bg-primary mb-3">Add Train</div>
             <div class="card-body">
-                    <form method="POST" action="form-handler" onsubmit="return checkForm(this);">
+                    <form>
                  <!-- form class="needs-validation" novalidate> -->
                     <div class="form-group">
                         <label for="train-name">Train Name</label>
@@ -98,6 +100,6 @@
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
     <!--JavaScript-->
-    <script src="javascript/logic.js"></script>
+    <script src="java.js"></script>
 </body>
 </html>
