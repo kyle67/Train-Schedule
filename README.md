@@ -32,6 +32,6 @@
       
     - [ FireBase](#typo3-extension-repository)
     
-      - Once the user completes the game they will be directed to a Game Summary. The Game Summary will consist of the users score, number of correct answers, number of wrong answers, number of hints used and remarks stating if they are Software Engineer Ready. The game Summary is then pushed to the MongoDB database.
+      - The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime. ... When your users go offline, the Realtime Database SDKs use local cache on the device to serve and store changes. When the device comes online, the local data is automatically synchronized
     
     
