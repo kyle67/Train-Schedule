@@ -33,5 +33,9 @@
     - [ FireBase](#typo3-extension-repository)
     
       - The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime.  When your users go offline, the Realtime Database SDKs use local cache on the device to serve and store changes. When the device comes online, the local data is automatically synchronized
+      
+     - [ Moments.js](#typo3-extension-repository)
+    
+       - Moment. js is a free and open source JavaScript library that removes the need to use the native JavaScript Date object directly. The library is a wrapper for the Date object (in the same way that jQuery is a wrapper for JavaScript) making the object a whole lot easier to work with.
     
     
