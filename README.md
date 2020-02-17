@@ -5,17 +5,14 @@
 
 ## :computer: Developers
 
-* :woman_mechanic: Chelsea Jackson- Front End
-* :woman_office_worker: Devon Martens- Front End
-* :woman_office_worker: Michal Terranova- Back End
-*  :man_teacher:Kyle Daniels- Back End
+*  :man_teacher:Kyle Daniels- 
 
 ⭐️ Star us on GitHub — it helps!
 
 
 [The Train-Scheduler]().  incorporates Firebase to host arrival and departure data. The app will retrieve and manipulate this information with Moment.js. The app will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station. 
 
-![image](https://user-images.githubusercontent.com/40472408/70688760-7d315c80-1c80-11ea-819f-c37ac597ac52.png) 
+
 
 ## Technology Utilized
 
