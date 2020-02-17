@@ -30,7 +30,7 @@
     
       - Once the user completes the game they will be directed to a Game Summary. The Game Summary will consist of the users score, number of correct answers, number of wrong answers, number of hints used and remarks stating if they are Software Engineer Ready. The game Summary is then pushed to the MongoDB database.
       
-         - [ FireBase](#typo3-extension-repository)
+    - [ FireBase](#typo3-extension-repository)
     
       - Once the user completes the game they will be directed to a Game Summary. The Game Summary will consist of the users score, number of correct answers, number of wrong answers, number of hints used and remarks stating if they are Software Engineer Ready. The game Summary is then pushed to the MongoDB database.
     
