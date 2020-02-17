@@ -14,22 +14,18 @@
 
 
 
-## Technology Utilized
+## Table of Contents
 
-
-    * [HTML](#typo3-extension-repository)
+- [Functionality](#Functionality)
+    - [HTML](#typo3-extension-repository)
     
-     * Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript
+      - 
       
-    *[CSS](#typo3-extension-repository)
-      - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+    - [CSS](#typo3-extension-repository)
+      - 
       
-    * [JavaScript](#typo3-extension-repository)
-      * An additional functionality will be added to this app that will allow the dealers to generate a quote based on the data that was populated in the application. The quote data will be generated from the data populated in the application.
-      
-     * [FireBase](#typo3-extension-repository)
-      *An additional functionality will be added to this app that will allow the dealers to generate a quote based on the data that was populated in the application. The quote data will be generated from the data populated in the application.
-      
-     
-      
+    - [JavaScript](#typo3-extension-repository)
+      - 
     
+    - [FireBase](#typo3-extension-repository)
+      - 
