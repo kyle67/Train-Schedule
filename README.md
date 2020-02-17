@@ -16,7 +16,8 @@
 
 ## Table of Contents
 
-- [Functionality](#Functionality)
+
+
     - [HTML](#typo3-extension-repository)
     
       - 
