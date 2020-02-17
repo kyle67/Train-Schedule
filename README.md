@@ -17,7 +17,7 @@
 ## Table of Contents
 
 
-- [Functionality](#Functionality)
+- [Technology Utilized](#Functionality)
     - [HTML](#typo3-extension-repository)
     
       - Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
@@ -32,6 +32,6 @@
       
     - [ FireBase](#typo3-extension-repository)
     
-      - The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime. ... When your users go offline, the Realtime Database SDKs use local cache on the device to serve and store changes. When the device comes online, the local data is automatically synchronized
+      - The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync between your users in realtime.  When your users go offline, the Realtime Database SDKs use local cache on the device to serve and store changes. When the device comes online, the local data is automatically synchronized
     
     
