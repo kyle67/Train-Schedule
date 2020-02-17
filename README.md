@@ -24,7 +24,7 @@
       
      - [CSS](#typo3-extension-repository)
      
-       - The user will select an Avatar then be directed to the game page to question one. Throughout the game the user will have the option to use a 50/50 hint twice and must answer fifteen questions within three minutes. If the user select the 50/50 option two of the answer choices will be removed give the user a fifty percent chance to seledt the correct answer. 
+       - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
        
     - [ JavaScript](#typo3-extension-repository)
     
